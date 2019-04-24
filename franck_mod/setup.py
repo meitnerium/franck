@@ -1,7 +1,7 @@
 from setuptools import setup
 
 setup(name='franck',
-      version='0.0.1rc2',
+      version='0.0.1rc3',
       description='Frank s Toolkit is a collection of tool to analyse molecular modeling output',
       url='http://www.francoisdion.com/',
       author='Francois Dion',
