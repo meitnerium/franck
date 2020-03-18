@@ -65,15 +65,15 @@ def converg_analyse(files,label,show=[1,1,1,1,1,1]):
           fancybox=True, shadow=True, ncol=5)
   if show[3]==1:
     ax2.plot(x,alpha,'b--',label=r"$\alpha$")
-  else if show[3]==-1:
+  elif show[3]==-1:
     ax2.plot(x,180.-alpha,label=r"$\alpha$")
   if show[4]==1:
     ax2.plot(x,beta,'--',color="orange",label=r"$\beta$")
-  else if show[4]==-1:
+  elif show[4]==-1:
     ax2.plot(x,180.-beta,label=r"$\beta$")
   if show[5]==1:
     ax2.plot(x,gamma,'g--',label=r"$\gamma$")
-  else if show[5]==-1:
+  elif show[5]==-1:
     ax2.plot(x,180.-gamma,label=r"$\gamma$")
   ax1.legend(loc='upper center', bbox_to_anchor=(0.5, 1.20),
           fancybox=True, shadow=True, ncol=5)
